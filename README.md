@@ -3,6 +3,8 @@
 ## Sujet du projet
 Meteonline est une application web qui permet aux utilisateurs de consulter les prévisions météorologiques pour leur emplacement actuel ou pour une ville de leur choix. L'application utilise l'API OpenWeatherMap pour récupérer les données météorologiques en temps réel.
 
+![Preview](imgs/example.png)
+
 ## Fonctionnalités principales
 - **Recherche par ville** : Les utilisateurs peuvent rechercher les prévisions météorologiques pour une ville spécifique en entrant le nom de la ville dans la barre de recherche.
 - **Géolocalisation** : L'application peut détecter automatiquement la position actuelle de l'utilisateur et afficher les prévisions météorologiques pour cet emplacement.
