@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>meteonline</title>
+    <link rel="stylesheet" href="style/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="imgs/logotab.png" />
+</head>
+<body>
+    
+    <header>
+        <img src="imgs/logo.png" class="logo">
+        <div class="searchBar">
+            <input type="text" id="searchInput" placeholder="Rechercher une ville">
+            <button id="searchButton">
+                <img src="imgs/arrow.png">
+            </button>
+        </div>
+    </header>
+
+    <div class="container" id="mainContainer">
+        <div class="message" id="geoMessage" style="display: none;">
+            <p>Veuillez activer la géolocalisation pour obtenir les prévisions météo pour votre emplacement actuel.</p>
+        </div>
+        <div class="container-items1" id="weatherContainer" style="display: none;">
+            <img id="weatherImg" src="">
+            <div>
+                <p id="cityName">Pau</p>
+                <p id="rainProb">Probabilité de pluie: 10%</p>
+                <p id="temperature">14°C</p>
+            </div>
+        </div>
+
+        <div class="container-items2" id="forecastContainer" style="display: none;">
+            <!-- Le script s'occupe de remplir ce div ^^ -->
+        </div>
+
+        <div class="container-items3" id="conditionsContainer" style="display: none;">
+            <p class="air-conditions">Conditions de l'air</p>
+            <div class="wind">
+                <p>Vent</p>
+                <p id="wind"></p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Hugo Beauvais, 2024</p>
+    </footer>
+
+    <script src="script/config.js"></script>
+    <script src="script/script.js"></script>
+</body>
+</html>
