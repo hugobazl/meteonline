@@ -24,7 +24,7 @@ Meteonline est une application web qui permet aux utilisateurs de consulter les 
 
 2. Remplacez la clé API dans le fichier `script/config.js` par votre propre clé API OpenWeatherMap :
 
-    **config.js**
+    **script/config.js**
     ```javascript
     // Clé API OpenWeatherMap, à remplacer par votre propre clé.
     const apiKey = 'YOUR_API_KEY_HERE';
